@@ -54,7 +54,7 @@
 
 | 컬럼 | 타입 | 예시 | 설명 |
 |---|---|---|---|
-| `dsc_commit` | string | `a3f9c21` | 측정 **대상**(DSC 티어링 구현)의 git commit. 대상 버전 추적용 |
+| `target_commit` | string | `a3f9c21` | 측정 **대상**정책의 git commit. 대상 버전 추적용 |
 | `hfmt_commit` | string | `7be0d44` | 측정 **도구**(HFMT 자신)의 git commit. 도구 버그로 인한 이상값 추적용 |
 | `config_hash` | string | `sha256:9f2c…` | 실험 설정 파일 전체의 해시. 동일 조건 여부를 한 값으로 판별 |
 
